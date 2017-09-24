@@ -2,11 +2,52 @@
   font-family: Helvetica;
   text-align: center;
 }
-ul {
-  list-style:none;
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:pink;
+}
+p {
+  font-size: 14px;
+}
+nav,p {
+  font-size: 18px;
+}
+
+.header {
+  color:white;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 #mainheader{
   font-size: 70px;
   font-weight:bold;
   color:white;
 }
+
+.newyork{
+  color:white;
+  background-image: url("/Users/Wizzy/Desktop/broadway/resources/images/the-flatiron-building.png")
+}
+.footer{
+  color:white;
+  background-color: dimgray;
+}
+.float{
+  float:left;
+  
+}
+#copyright{
+  font-size: 11px;
+  text-align: left;
+  margin-top: auto;
+}
+/*#bottomnav{
+  display:inline-block;
+  text-align: left;
+  display: inline;
+
+}*/
