@@ -1,0 +1,12 @@
+*{
+  font-family: Helvetica;
+  text-align: center;
+}
+ul {
+  list-style:none;
+}
+#mainheader{
+  font-size: 70px;
+  font-weight:bold;
+  color:white;
+}
