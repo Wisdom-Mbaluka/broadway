@@ -1,6 +1,5 @@
 *{
   font-family: Helvetica;
-  text-align: center;
 }
 a:link{
   color:white;
@@ -17,8 +16,18 @@ p {
 nav,p {
   font-size: 18px;
 }
+h2,h3,p{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 .header {
+  text-align: center;
   color:white;
   background-image:url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
@@ -38,7 +47,7 @@ nav,p {
 }
 .float{
   float:left;
-  
+
 }
 #copyright{
   font-size: 11px;
